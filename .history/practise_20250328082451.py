@@ -270,5 +270,7 @@ make random numbers:
 # numbers = int(input("enter a number: '"))
 
 
-print("hello world")
+size = 10
+for i in range(size):
+    print("*" * i) 
     
